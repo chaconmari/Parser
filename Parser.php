@@ -5,10 +5,10 @@
     include 'Token.php';
     include 'Lexer.php';
 
-    $run = new Fall17Program();
+    $run = new Parser();
     $run->main();
 
-    class Fall17Program {
+    class Parser {
 
       public $letters = 'abcdefghijklmnopqrstuvwxyz';
       public $digits = '0123456789';
